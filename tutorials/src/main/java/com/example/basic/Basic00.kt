@@ -14,7 +14,7 @@ fun main(args: Array<String>) {
     for(n in numbers) {
         print(n)
     }
-    println();
+    println()
 
     var arrays = ArrayList<String>()
     arrays.add("A")
@@ -33,11 +33,11 @@ fun parseInt(str: String): Int {
     } catch (e: NumberFormatException) {
         println("One of the arguments isn't Int")
     }
-    return -1;
+    return -1
 }
 
 fun getStringLength(obj: Any): Int? {
     if (obj is String)
-        return obj.length;
-    return null;
+        return obj.length
+    return null
 }
